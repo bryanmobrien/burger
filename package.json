@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bryanmobrien/burger/issues"
   },
-  "homepage": "https://github.com/bryanmobrien/burger#readme"
+  "homepage": "https://github.com/bryanmobrien/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
