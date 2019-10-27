@@ -19,6 +19,4 @@
 - See the attached image for assistance
 
 ![JAWSDB Help Image](./JawsDB-troubleshooting.png)
-
-
-
+- special thanks to https://blog.edna.tech/2018/08/10/connecting-eat-da-burger-to-jawsdb-on-heroku/
