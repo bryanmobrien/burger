@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Welcome to Eat-Da-Burger
 
-You can use the [editor on GitHub](https://github.com/bryanmobrien/burger/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
 
-### Markdown
+* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Your app will store every burger in a database, whether devoured or not.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bryanmobrien/burger/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* [Check out this video of the app for a run-through of how it works](https://youtu.be/msvdn95x9OM).
