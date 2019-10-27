@@ -3,24 +3,24 @@ var orm = require("../config/orm.js");
 
 var burger = {
   selectBurger: function(cb) {
-    orm.selectBurger("burgers_db.burgers", function(res) {
+    orm.selectBurger("burgers", function(res) {
       cb(res);
     });
   },
   insertBurger: function(cols, vals, cb) {
-    orm.insertBurger("burgers_db.burgers", cols, vals, function(res) {
+    orm.insertBurger("burgers", cols, vals, function(res) {
       cb(res);
     });
   },
 
   // The variables cols and vals are arrays.
   updateBurger: function(objColVals, condition, cb) {
-    orm.updateBurger("burgers_db.burgers", objColVals, condition, function(res) {
+    orm.updateBurger("burgers", objColVals, condition, function(res) {
       cb(res);
     });
   },
   deleteBurger: function(condition, cb) {
-    orm.deleteBurger("burgers_db.burgers", condition, function(res) {
+    orm.deleteBurger("burgers", condition, function(res) {
       cb(res);
     });
   }
